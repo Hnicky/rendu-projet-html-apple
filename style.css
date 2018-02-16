@@ -1,0 +1,294 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/*               End of Setup             */
+
+@font-face{
+  font-family: "myriad";
+  src: url("fonts/myriad-set-pro_thin.ttf");
+}
+
+
+/* DEBUT DE MON CODE */
+
+/* Nav */
+
+body{
+
+}
+
+.nav a{
+color: white;
+}
+
+.nav a:hover{
+  color: #d6d6d6;
+}
+
+.nav{
+font-family: myriad;
+position: fixed;
+width: 100%;
+top: 0px;
+}
+
+.nav ul{
+  background-color: #323232;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: -10px;
+  padding-left: 300px;
+  padding-right: 300px;
+  flex: 1;
+}
+
+
+.nav li{
+  font-size: 15px;
+  margin-top: 30px;
+  color: white;
+}
+
+/* SECTION 1 */
+
+.principal{
+  margin-top: 100px;
+  display: flex;
+}
+.bloc1{
+  width: 500px;
+  margin-left: 340px;
+  flex: 1;
+}
+
+.bloc2 h1{
+font-size: 25px;
+}
+
+.bloc2 h2{
+  font-size: 40px;
+  /* text-align: center; */
+  margin-right: 400px;
+  margin-top: 15px;
+  line-height: 50px;
+  font-family: myriad;
+}
+
+.bloc2{
+  display: block;
+  text-align: center;
+}
+
+.bloc2 a{
+  margin-right: 420px;
+}
+
+.bloc2 img{
+  margin-top: 200px;
+  flex: 1;
+  width: 380px;
+}
+
+.bloc3{
+  display: flex;
+  font-family: myriad;
+  margin-top: 20px;
+}
+
+.galerie{
+  display: flex;
+  margin-top: 20px;
+}
+/* SECTION 2 */
+
+.galerie{
+  width: 100%;
+}
+
+.img{
+  display: flex;
+  width: 25%;
+  height: auto;
+  margin: 1px;
+}
+
+/* SECTION 3 */
+
+.ac{
+  font-size: 23px;
+  font-family: myriad;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ac a{
+  color: #1684b4;
+}
+
+/* SECTION 4 */
+.section4{
+  background-color: #f2f2f2;
+  height: 400px;
+
+}
+
+.section4 a{
+  color: black;
+  text-decoration: none;
+}
+
+.liste1{
+  padding-top: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 300px;
+  font-family: myriad;
+}
+
+.liste2{
+  font-size: 13px;
+  font-family: myriad;
+  line-height: 22px;
+  margin-top: -242px;
+  margin-left: 500px;
+
+}
+
+.liste3{
+  font-size: 13px;
+  font-family: myriad;
+  line-height: 22px;
+  margin-top: -242px;
+  margin-left: 700px;
+}
+
+.liste4{
+  font-size: 13px;
+  font-family: myriad;
+  line-height: 22px;
+  margin-top: -199px;
+  margin-left: 900px;
+}
+
+.liste5{
+  text-decoration: none;
+  font-size: 13px;
+  font-family: myriad;
+  line-height: 22px;
+  margin-top: -265px;
+  margin-left: 1100px;
+}
+
+.section5{
+  font-size: 13px;
+  font-family: myriad;
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.section5 a{
+  color: #1674cb;
+}
+
+.section6{
+  font-size: 13px;
+  font-family: myriad;
+  margin-left: 300px;
+  margin-top:15px;
+}
+
+.terms0{
+  color: black;
+}
+
+.terms1{
+  margin-left: 25px;
+  color: black;
+}
+
+.terms2{
+  margin-left: 20px;
+  border-left: 1px solid #d6d6d6;
+  padding-left: 10px;
+  color: black;
+}
+
+.language{
+  margin-left: 360px;
+  color: black;
+}
